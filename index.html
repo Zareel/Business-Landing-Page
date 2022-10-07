@@ -4,211 +4,211 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Business Landing Page</title>
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <div class="logo">
-                    <img src="./images/logo.png" alt="logo">
+    <header>
+        <div>
+            <nav class="nav-bar">
+                <div>
+                    <img class="logo" src="./images/whitePRlogo.png" alt="logo">
                 </div>
                 
-                <ul class="nav-items">
-                    <li class="nave-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nave-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nave-item"><a class="nav-link" href="#">Pages</a></li>
-                    <li class="nave-item"><a class="nav-link" href="#">Agent</a></li>
-                    <li class="nave-item"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nave-item"><a class="nav-link" href="#">Subscribe</a></li>   
-                </ul>
-                <div class="fa-bar">
-                    <i class="fa fa-bars"></i>
+                <div class="nav-right">
+                    <div class="nav-items">
+                        <a href="#" class="nav-item">Home</a>
+                        <a href="#" class="nav-item">About Us</a>
+                        <a href="#" class="nav-item">Pages</a>
+                        <a href="#" class="nav-item">Agent</a>
+                        <a href="#" class="nav-item">Blog</a>
+                        <a href="#" class="nav-item">Subscribe</a>
+                    </div>
+                    <button class="nav-btn">Let's Talk</button>
+                    <i class="fa fa-bars fa-menu" style="color: #fff;" aria-hidden="true"></i>
                 </div>
-                
-                <button class="nav-button">Let's Talk</button>
                 
             </nav>
-            <div class="main-section-1">
-                <div class="header-img">
-                    <img src="./images/header-img.jpg" width="300px" height="450px"  alt="header-img">
-                </div>
-                <div class="header-right">
-                    <h1 class="heading">Empowering your <br>business with the <br>best solution</h1>
-                    <p class="header-right-content">We can connect your brand with your target <br>market in the most desirable, refined and elevated way <br>possible through the digital medium</p>
-                    <label class="forms">
-                        <img src="./images/mail.png" alt="mail-img">
-                        <input type="text" name="email" id="email" placeholder="Enter your email address">
-                        <button class="mailbox-btn">Let's talk</button>
-                    </label>
+        </div>
+         <!-- ------------------------------------------------end of nav-bar-------------------------------------------- -->
+        <div class="hero">
+            <div class="hero-left">
+                <img class="header-image" src="./images/header-img.jpg" width="450px" alt="img">
+            </div>
+            <div class="hero-right">
+                <h1>Empowering your <br>Business width the <br>best solution </h1>
+                <p>We connect your brand & business with your target <br>market in the most desirable, refined, and elevated way <br> possible through the digital medium</p>
+                <div class="joined-btn">
+                    <img class="btn-left mail-icon" src="./images/mail.png" width="35px" alt="" ><a class="btn-left form-text" href="#">Enter your email address</a>
+                    <button class="btn">Let's Talk</button>
                 </div>
             </div>
-            
-        </header>
-        <!-- ---------------------------Section-2 connect------------------------------------- -->
-        <main class="section-2-business">
-            <div class="business-heading">
-                <h1>We connect your business <br>with your target</h1>                       
+        </div>
+    </header>
+   <!-- -------------------------------------------------------end of hero section----------------------------------- -->
+   <section class="sec-two">
+        <h1 class="heading">We connect your businesses <br> with your target</h1>
+        <div class="stats">
+            <div class="numbers">
+                <h1>1,093</h1>
+                <p>Finished Projects</p>
             </div>
-            <div class="business-details">
-                <div class="details">
-                    <h2>1,093</h2>
-                    <p>Finished Projects</p>
-                </div>
-                <div class="details">
-                    <h2>3,355</h2>
-                    <p>Enrolled Projects</p>
-                </div>
-                <div class="details">
-                    <h2>40</h2>
-                    <p>Team Worker</p>
-                </div>
-                <div class="details">
-                    <h2>90%</h2>
-                    <p>Satisfaction Rate</p>
-                </div>
+            <div class="numbers">
+                <h1>3,355</h1>
+                <p>Enrolled Projects</p>
             </div>
-            <div class="business img">
-                <img src="./images/sec2-img.jpg" alt="img">
+            <div class="numbers">
+                <h1>40</h1>
+                <p>Team Worker</p>
             </div>
-        </main>
-        <!-- --------------------------Section-3 AboutUs ------------------------------------------>
-        <main class="sectin-3-about-us">
-            <div class="section-3-heading">
-                <h1>We have made your <br>career easy for you</h1>
+            <div class="numbers">
+                <h1>90%</h1>
+                <p>Satisfaction Rate</p>
             </div>
-            <div class="sec-3-content">
-                <div class="section-3-left">
-                    <h2>Effective Website Design <br> and Development</h2>
-                    <p>By connecting patients all over the world to the best <br>instructors, Healthycare helping individuals reach their <br>goals and pursue thier dreams</p>
-                    <button class="sec-3-btn">Let's talk</button>
-                </div>
-                
-                <div class="sec-3-right">
-                    <img src="./images/sec3-img.jpg" width="450px" height="450px" alt="img">
-                </div>
+        </div>
+        <img class="sec2-img" src="./images/sec2-img.jpg" alt="">
+   </section>
+   
+   <!-----------------------------------------------------end of stats-----------------------------------------  -->
+   <section class="hero2">
+    <h1 class="heading">We have made your <br> care easy for you </h1>
+    <div class="hero-two">
+        <div class="hero2-left">
+            <h1 class="hero-heading">Effective Website Design <br> and Development</h1>
+            <P>By connecting petients all over the world to the best <br> instructors, healthy care halping individuals reach their <br> goals and pursue their dreams  </P>
+            <button class="hero-btn">Let's Talk</button>
+        </div>
+        <div>
+            <img src="./images/sec3-img.jpg" width="500px" alt="">
+        </div>
+    </div>
+   </section>
+   <!-- --------------------------------------------------end of hero2-------------------------------------------- -->
+   <section class="hero3">
+    <div class="hero-two">
+        <div>
+            <img src="./images/sec4-img.jpg" width="500px" alt="">
+        </div>
+
+        <div class="hero2-left">
+            <h1 class="hero-heading">We give proven digital <br>marketing strategies for  <br> our clients</h1>
+            <P>Consultant working hard and we collaborate with  <br>organizations that are keen transform the legal industry <br> reach their goals and pursue their dreams </P>
+            <button class="hero-btn">Let's Talk</button>
+        </div>
+    </div>
+   </section>
+   <!-- ---------------------------------------------------end of hero3---------------------------------- -->
+   <section class="hero4">
+    <div class="hero-two">
+        <div class="hero2-left">
+            <h1 class="hero-heading">People always judge  <br> the book by it's cover</h1>
+            <P>By connecting petients all over the world to the best <br> instructors, healthy care halping individuals reach their <br> goals and pursue their dreams  </P>
+            <button class="hero-btn">Let's Talk</button>
+        </div>
+        <div>
+            <img src="./images/sec5-img.jpg" width="500px" alt="img">
+        </div>
+    </div>
+   </section>
+   <!-- --------------------------------------------------end of hero4------------------------------------------ -->
+   <section class="meetOurTeam">
+    <div class="creativeTeam">
+        <h1>Meat out great <br>Creative Team</h1>
+        <p>Our journey began with a simple idea make a simple <br> journey make this world more function. We collaborate <br> with organizations that are keen transform    </p>
+    </div>
+    <div class="cards">
+        <div class="card card1">
+            <img src="./images/card1.jpg" width="300px" alt="">
+            <h3>Amera Amanda</h3>
+            <p>Introduction start procastinate 2 hours get<br>to do work get to do work while eating</p>
+        </div>
+        <div class="card card1">
+            <img src="./images/card2.jpg" width="300px" alt="">
+            <h3>Lucas Podolski</h3>
+            <p>Introduction start procastinate 2 hours get<br>to do work get to do work while eating</p>
+        </div>
+        <div class="card card1">
+            <img src="./images/card3.jpg" width="300px" alt="">
+            <h3>Leny Marissa Naustion</h3>
+            <p>Introduction start procastinate 2 hours get<br>to do work get to do work while eating</p>
+        </div>
+    </div>
+    <button class="seeMore">See More</button>
+   </section>
+   <!-- ------------------------------------------------end of meet our team---------------------- -->
+   <footer class="footer">
+    <div class="footer-top">
+        <div>
+            <img class="logo" src="./images/whitePRlogo.png" alt="logo">
+        </div>
+        <div class="icons">
+            <div>
+                <i class="fa fa-instagram fa-icon" style="color: #fff;" aria-hidden="true"></i>
             </div>
-        </main>
-        <!-- ------------------------------Section-4 Digital marketing-------------------------------->
-        <main class="section-4-digital-marketing">
-            <div class="sec-4-content">
-                <div class="sec-4-left">
-                    <img src="./images/sec4-img.jpg" width="450px" height="450px" alt="img">
-                </div>
-                <div class="sec-4-right">
-                    <h2>We Give Proven Digital <br>Marketing Strategies for <br>Our Clients</h2>
-                    <p>Consultant working hard and we collaborate with <br>organizations that are keen transform the legal industry <br>reach their goals and pursue their dreams.</p>
-                    <button class="sec-4-btn">Let's talk</button>
-                </div>
+            <div>
+                <i class="fa fa-facebook-square fa-icon" style="color: #fff;" aria-hidden="true"></i>
             </div>
-        </main>
-        <!-- --------------------------------Section-5 judgement --------------------------------------->
-        <main class="sec-5-judgement">
-            <div class="sec-5-content">
-                <div class="sec-5-left">
-                    <h2>We Give Proven Digital <br>Marketing Strategies for <br>Our Clients</h2>
-                    <p>By connecting patients all over the world to the best <br>instructors, Healthycare helping individuals reach their <br>goals and pursue thier dreams</p>
-                    <button class="sec-5-btn">Let's talk</button>
-                </div>
-                <div class="sec-5-right">
-                    <img src="./images/sec5-img.jpg" width="450px" height="450px" alt="img">
-                </div>
+            <div>
+                <i class="fa fa-twitter fa-icon" style="color: #fff;" aria-hidden="true"></i>
             </div>
-        </main>
-        <!-- --------------------------------Section-6 Meet Our Team --------------------------------------->
-        <main class="meet-our-team">
-            <div class="sec-6-content">
-                <div class="top-part">
-                    <div class="top-left">
-                        <h2>Meet our great <br>Creative Teams</h2>
-                    </div>
-                    <div class="top-right">
-                        <p>Our journey began with a simple idea make a simple <br>journey make this world more function. We collaborate <br>with organizations that are keen transform</p>
-                    </div>
-                </div>
-                <div class="mid-part">
-                    <div class="cards">
-                        <div class="card1">
-                            <img src="./images/card1.jpg" width="300px" height="400px" alt="img">
-                            <h3>Amera Amanda</h3>
-                            <p>Introduction start procastinate 2 hours get <br>to do work while eating</p>
-                        </div>
-                        <div class="card2">
-                            <img src="./images/card2.jpg" width="300px" height="400px"  alt="img">
-                            <h3>Lucas Podolski</h3>
-                            <p>Introduction start procastinate 2 hours get <br>to do work while eating</p>
-                        </div>
-                        <div class="card3">
-                            <img src="./images/card3.jpg" width="300px" height="400px"  alt="img">
-                            <h3>Leni Merissa Nasution</h3>
-                            <p>Introduction start procastinate 2 hours get <br>to do work while eating</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="bottom-part">
-                    <button class="sec-6-btn">See More</button>
-                </div>
+            <div>
+                <i class="fa fa-github fa-icon" style="color: #fff;" aria-hidden="true"></i>
             </div>
-        </main>
-        <!-- ----------------------------------------footer---------------------------------- -->
-        <footer class="footer-section">
-            <div class="footer-top-part">
-                <div class="footer-logo">
-                    <img src="./images/logo.png" alt="logo">
-                </div>
-                <div class="footer-top-right">
-                    <ul class="footer-items">
-                        <li class="footer-item"><img src="./images/insta.png" width="15px" alt="instagram"></li>
-                        <li class="footer-item"><img src="./images/fb.png" width="15px" height="15px" alt="fb"></li>
-                        <li class="footer-item"><img src="./images/twit.png" width="15px" alt="twitter"></li>
-                        <li class="footer-item"><img src="./images/git.png" width="15px" alt="github"></li>
-                        <li class="footer-item"><img src="./images/insta.png" width="15px" alt="instagram"></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="footer-bottom-part">
-                <div class="footer-menu">
-                    <div class="footer-menu-1">
-                        <h4>Our Products</h4>
-                        <p>The Support Suit</p>
-                        <p>The Sales Suit</p>
-                        <p>Support</p>
-                        <p>Guide</p>
-                    </div>
-                    <div class="footer-menu-2">
-                        <h4>Top Features</h4>
-                        <p>Ticketing System</p>
-                        <p>knowledge Base</p>
-                        <p>Community Forum</p>
-                        <p>Help Desk Software</p>
-                    </div>
-                    <div class="footer-menu-3">
-                        <h4>Resources</h4>
-                        <p>Product Support</p>
-                        <p>Request Demo</p>
-                        <p>Library</p>
-                        <p>Business Blog</p>
-                    </div>
-                    <div class="footer-menu-4">
-                        <h4>Company</h4>
-                        <p>About Us</p>
-                        <p>Press</p>
-                        <p>Investers</p>
-                        <p>Events</p>
-                    </div>
-                    <div class="footer-menu-5">
-                        <h4>Favourite Things</h4>
-                        <p>For Enterprice</p>
-                        <p>For Startups</p>
-                        <p>For Benchmark</p>
-                        <p>For Small Business</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>    
+            <div>
+                <i class="fa fa-instagram fa-icon" style="color: #fff;" aria-hidden="true"></i>
+            </div>   
+        </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+        <div>
+            <ul>
+                <li class="footer-item itme-active">Our Products</li>
+                <li class="footer-item">The Support Suit </li>
+                <li class="footer-item">The Sales Suit</li>
+                <li class="footer-item">Support</li>
+                <li class="footer-item">Guide</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="footer-item itme-active">Top Features</li>
+                <li class="footer-item">Ticketing System </li>
+                <li class="footer-item">Knowledge Base</li>
+                <li class="footer-item">Community Forums</li>
+                <li class="footer-item">Help Desk Software</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="footer-item itme-active">Resources</li>
+                <li class="footer-item">Product Support</li>
+                <li class="footer-item">Request Demo</li>
+                <li class="footer-item">Library</li>
+                <li class="footer-item">Business Blog</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="footer-item itme-active">Company</li>
+                <li class="footer-item">About Us</li>
+                <li class="footer-item">Press</li>
+                <li class="footer-item">Investors</li>
+                <li class="footer-item">events</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="footer-item itme-active">Favorite Things</li>
+                <li class="footer-item">For Enterprise</li>
+                <li class="footer-item">For Startups</li>
+                <li class="footer-item">For BenchMark</li>
+                <li class="footer-item">For Small businesses</li>
+            </ul>
+        </div>
+    </div>
+    
+   </footer>
 </body>
 </html>
